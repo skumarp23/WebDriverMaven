@@ -34,6 +34,11 @@ public class LoginTest {
 		driver.manage().window().maximize();
 		driver.get(baseUrl);
 		
+		/*
+		 * this is login functionality
+		 * 
+		 * 
+		 */
 		driver.findElement(By.linkText("Gmail")).click(); 
 		driver.findElement(By.xpath("html/body/nav/div/a[2]")).click();
 		driver.findElement(By.id("identifierId")).sendKeys(email_id);
